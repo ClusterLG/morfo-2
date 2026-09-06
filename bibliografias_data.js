@@ -10,7 +10,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Fauci, Braunwald, Kasper, Hauser, Longo, Jameson, Loscalzo",
     "category": "Medicina Interna",
     "edition": "17ª Edición (2008)",
-    "file": "Bibliografias/medicina interna -harrison 2008- vol 1.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/medicina%20interna%20-harrison%202008-%20vol%201.pdf",
     "size": "50.2 MB",
     "description": "El tratado de referencia mundial en medicina interna. Abarca fundamentos de la medicina clínica, manifestaciones cardinales y presentación de enfermedades, genética celular y medicina regenerativa.",
     "icon": "🩺",
@@ -22,7 +22,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Fauci, Braunwald, Kasper, Hauser, Longo, Jameson, Loscalzo",
     "category": "Medicina Interna",
     "edition": "17ª Edición (2008)",
-    "file": "Bibliografias/medicina interna -harrison 2008- vol 2.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/medicina%20interna%20-harrison%202008-%20vol%202.pdf",
     "size": "63.9 MB",
     "description": "Segundo volumen del tratado de medicina interna enfocado en patologías específicas: enfermedades cardiovasculares, respiratorias, renales, gastrointestinales, endocrinología y neurología clínica.",
     "icon": "🩺",
@@ -34,7 +34,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Kasper, Braunwald, Fauci, Hauser, Longo, Jameson",
     "category": "Medicina Interna",
     "edition": "16ª Edición",
-    "file": "Bibliografias/Manual de Medicina Harrison 16ed.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Manual%20de%20Medicina%20Harrison%2016ed.pdf",
     "size": "5.5 MB",
     "description": "Guía práctica condensada para el médico y estudiante de medicina en áreas clínicas. Presenta diagnóstico rápido, signos clave y esquemas terapéuticos paso a paso en guardias médicas.",
     "icon": "📖",
@@ -46,7 +46,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Antonio Surós Batlló, Juan Surós Batlló",
     "category": "Semiología y Propedéutica",
     "edition": "8ª Edición",
-    "file": "Bibliografias/Seemiologia+Suuros+8edicion.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Seemiologia_Suuros_8edicion.pdf",
     "size": "94.3 MB",
     "description": "Obra cumbre de la semiología médica hispanoparlante. Métodos de exploración física, inspección, palpación, percusión y auscultación detallados por cada aparato y sistema orgánico.",
     "icon": "🔍",
@@ -58,7 +58,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Pedro Cossio, I. Fustinoni, C. A. Rospide",
     "category": "Semiología y Propedéutica",
     "edition": "Edición Médica de Consulta",
-    "file": "Bibliografias/semiologia_de_cossio.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/semiologia_de_cossio.pdf",
     "size": "27.8 MB",
     "description": "Texto clásico de semiología médica con enfoque fisiopatológico en la anamnesis, historia clínica, examen físico razonado e interpretación de signos y síntomas.",
     "icon": "📋",
@@ -70,7 +70,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "F. Charles Brunicardi, Dana K. Andersen, Timothy R. Billiar",
     "category": "Cirugía",
     "edition": "Edición de Estudio y Consulta",
-    "file": "Bibliografias/Schwartz.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Schwartz.pdf",
     "size": "12.3 MB",
     "description": "Texto fundamental de cirugía general. Principios de respuesta biológica al trauma quirúrgico, manejo perioperatorio, hemostasia, infección quirúrgica y técnicas operatorias básicas.",
     "icon": "🔪",
@@ -82,7 +82,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Pedro Michans y colaboradores",
     "category": "Cirugía",
     "edition": "5ª Edición (2002 - Optimizado)",
-    "file": "Bibliografias/Cirugía de Michans - 5ta ed - 2002 - OPTIMIZADO.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Cirugia%20de%20Michans%20-%205ta%20ed%20-%202002%20-%20OPTIMIZADO.pdf",
     "size": "65.6 MB",
     "description": "Tratado latinoamericano insigne de patología quirúrgica. Abordaje de abdomen agudo, patología hepatobiliar, patología de tiroides, tórax y tubo digestivo con razonamiento clínico-quirúrgico.",
     "icon": "🏥",
@@ -94,7 +94,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Guariglia y colaboradores",
     "category": "Cirugía",
     "edition": "Edición Universitaria",
-    "file": "Bibliografias/libro Guarilia.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/libro%20Guarilia.pdf",
     "size": "19.3 MB",
     "description": "Guía especializada en el examen físico del paciente quirúrgico, semiología de heridas, hernias, masas abdominales y patología vascular periférica.",
     "icon": "🩹",
@@ -106,7 +106,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Grupo CTO Medicina",
     "category": "Traumatología",
     "edition": "19ª Edición / Medikando",
-    "file": "Bibliografias/19 TRAUMATOLOGIA BY MEDIKANDO CTO.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/19%20TRAUMATOLOGIA%20BY%20MEDIKANDO%20CTO.pdf",
     "size": "49.2 MB",
     "description": "Compendio sintético de alta eficiencia académica con esquemas, algoritmos de tratamiento para fracturas, luxaciones, lesiones ligamentosas, tumores óseos y patología ortopédica.",
     "icon": "🦴",
@@ -118,7 +118,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Kenneth A. Egol, Kenneth J. Koval, Joseph D. Zuckerman",
     "category": "Traumatología",
     "edition": "Manual Práctico de Ortopedia",
-    "file": "Bibliografias/Manual de fracturas.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Manual%20de%20fracturas.pdf",
     "size": "99.8 MB",
     "description": "Manual práctico exhaustivo sobre clasificación, mecanismo lesional, anatomía patológica, estudio radiológico y opciones de osteosíntesis e inmovilización de todas las fracturas corporales.",
     "icon": "🩻",
@@ -130,7 +130,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Sociedad Española de Ginecología y Obstetricia",
     "category": "Obstetricia y Ginecología",
     "edition": "Edición Oficial SEGO",
-    "file": "Bibliografias/FUNDAMENTOS OBSTETRICIA.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/FUNDAMENTOS%20OBSTETRICIA.pdf",
     "size": "18.9 MB",
     "description": "Tratado formativo sobre el control prenatal, fisiología del embarazo, monitorización fetal intraparto, mecanismos del parto eutócico y patología obstétrica prevalente.",
     "icon": "🤰",
@@ -142,7 +142,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Guías Clínicas Especializadas",
     "category": "Obstetricia y Ginecología",
     "edition": "Guía de Práctica Clínica",
-    "file": "Bibliografias/LIBRO_MANEJO_PARTO_PRETERMINO.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/LIBRO_MANEJO_PARTO_PRETERMINO.pdf",
     "size": "22.7 MB",
     "description": "Protocolos actualizados para la predicción, prevención, tocolisis, maduración pulmonar fetal con corticoides y neuroprotección con sulfato de magnesio en la amenaza de parto pretérmino.",
     "icon": "👶",
@@ -154,7 +154,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Dr. Juan Aller, Dr. Gustavo Pagés",
     "category": "Obstetricia y Ginecología",
     "edition": "3ª Edición Digital",
-    "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 1.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%201.pdf",
     "size": "45 Capítulos en PDF",
     "description": "Obra de referencia obstétrica de los Dres. Juan Aller y Gustavo Pagés. Disponible con acceso y descarga capítulo por capítulo, incluyendo diagnóstico prenatal, monitorización y patologías de la gestación.",
     "icon": "📚",
@@ -162,227 +162,227 @@ var BIBLIOGRAFIAS_DATA = [
     "chapters": [
       {
         "name": "Cap 1",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 1.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%201.pdf",
         "size": "0.15 MB"
       },
       {
         "name": "Cap 2",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 2.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%202.pdf",
         "size": "0.16 MB"
       },
       {
         "name": "Cap 3",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 3.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%203.pdf",
         "size": "0.57 MB"
       },
       {
         "name": "Cap 4",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 4.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%204.pdf",
         "size": "0.19 MB"
       },
       {
         "name": "Cap 5",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 5.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%205.pdf",
         "size": "0.23 MB"
       },
       {
         "name": "Cap 6",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 6.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%206.pdf",
         "size": "0.12 MB"
       },
       {
         "name": "Cap 7",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 7.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%207.pdf",
         "size": "0.18 MB"
       },
       {
         "name": "Cap 8",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 8.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%208.pdf",
         "size": "0.17 MB"
       },
       {
         "name": "Cap 9",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 9.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%209.pdf",
         "size": "0.11 MB"
       },
       {
         "name": "Cap 10",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 10.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2010.pdf",
         "size": "0.20 MB"
       },
       {
         "name": "Cap 11",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 11.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2011.pdf",
         "size": "0.14 MB"
       },
       {
         "name": "Cap 12",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 12.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2012.pdf",
         "size": "0.16 MB"
       },
       {
         "name": "Cap 13",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 13.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2013.pdf",
         "size": "0.22 MB"
       },
       {
         "name": "Cap 14",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 14.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2014.pdf",
         "size": "0.10 MB"
       },
       {
         "name": "Cap 15",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 15.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2015.pdf",
         "size": "0.25 MB"
       },
       {
         "name": "Cap 16",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 16.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2016.pdf",
         "size": "0.10 MB"
       },
       {
         "name": "Cap 17",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 17.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2017.pdf",
         "size": "0.15 MB"
       },
       {
         "name": "Cap 18",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 18.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2018.pdf",
         "size": "0.32 MB"
       },
       {
         "name": "Cap 19",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 19.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2019.pdf",
         "size": "0.18 MB"
       },
       {
         "name": "Cap 20",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 20.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2020.pdf",
         "size": "0.17 MB"
       },
       {
         "name": "Cap 21",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 21.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2021.pdf",
         "size": "0.13 MB"
       },
       {
         "name": "Cap 22",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 22.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2022.pdf",
         "size": "0.12 MB"
       },
       {
         "name": "Cap 23",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 23.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2023.pdf",
         "size": "0.12 MB"
       },
       {
         "name": "Cap 24",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 24.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2024.pdf",
         "size": "0.10 MB"
       },
       {
         "name": "Cap 25",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 25.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2025.pdf",
         "size": "0.20 MB"
       },
       {
         "name": "Cap 26",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 26.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2026.pdf",
         "size": "0.11 MB"
       },
       {
         "name": "Cap 28",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 28.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2028.pdf",
         "size": "0.20 MB"
       },
       {
         "name": "Cap 29",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 29.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2029.pdf",
         "size": "0.22 MB"
       },
       {
         "name": "Cap 30",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 30.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2030.pdf",
         "size": "0.31 MB"
       },
       {
         "name": "Cap 31",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 31.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2031.pdf",
         "size": "0.22 MB"
       },
       {
         "name": "Cap 32",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 32.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2032.pdf",
         "size": "0.15 MB"
       },
       {
         "name": "Cap 33",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 33.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2033.pdf",
         "size": "0.09 MB"
       },
       {
         "name": "Cap 34",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 34.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2034.pdf",
         "size": "0.12 MB"
       },
       {
         "name": "Cap 35",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 35.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2035.pdf",
         "size": "0.09 MB"
       },
       {
         "name": "Cap 36",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 36.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2036.pdf",
         "size": "0.18 MB"
       },
       {
         "name": "Cap 37",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 37.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2037.pdf",
         "size": "0.14 MB"
       },
       {
         "name": "Cap 38",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 38.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2038.pdf",
         "size": "0.11 MB"
       },
       {
         "name": "Cap 39",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 39.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2039.pdf",
         "size": "0.12 MB"
       },
       {
         "name": "Cap 40",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 40.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2040.pdf",
         "size": "0.17 MB"
       },
       {
         "name": "Cap 41",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 41.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2041.pdf",
         "size": "0.19 MB"
       },
       {
         "name": "Cap 42",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 42.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2042.pdf",
         "size": "0.32 MB"
       },
       {
         "name": "Cap 43",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 43.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2043.pdf",
         "size": "0.12 MB"
       },
       {
         "name": "Cap 44",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 44.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2044.pdf",
         "size": "0.10 MB"
       },
       {
         "name": "Cap 45",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/Cap 45.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/Cap%2045.pdf",
         "size": "0.20 MB"
       },
       {
         "name": "enfermedad hipertensiva",
-        "file": "Bibliografias/Juan Aller libro (OBSTETRICIA MODERNA)/enfermedad hipertensiva.pdf",
+        "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Juan%20Aller%20libro%20_OBSTETRICIA%20MODERNA_/enfermedad%20hipertensiva.pdf",
         "size": "0.15 MB"
       }
     ]
@@ -393,7 +393,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Frank H. Netter, MD",
     "category": "Anatomía Humana",
     "edition": "4ª Edición",
-    "file": "Bibliografias/Netter – Atlas de Anatomía Humana, 4ª Edición ( PDFDrive ).pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Netter%20_%20Atlas%20de%20Anatomia%20Humana_%204_%20Edicion%20_%20PDFDrive%20_.pdf",
     "size": "59.8 MB",
     "description": "El atlas anatómico de referencia mundial. Ilustraciones magistrales y relaciones topográficas de cabeza y cuello, dorso, tórax, abdomen, pelvis y miembros con enfoque clínico.",
     "icon": "🫀",
@@ -405,7 +405,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Kenneth S. Saladin",
     "category": "Morfofisiología y Anatomía",
     "edition": "6ª Edición",
-    "file": "Bibliografias/morfofisiliologia-saladin-anatomia-y-fisiologia.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/morfofisiliologia-saladin-anatomia-y-fisiologia.pdf",
     "size": "40.4 MB",
     "description": "Tratado integrador fundamental de la anatomía y fisiología médica. Fundamento indispensable para Morfofisiología I, II y III con esquemas histológicos, celulares y de sistemas orgánicos.",
     "icon": "🔬",
@@ -417,7 +417,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Adel K. Afifi, Ronald A. Bergman",
     "category": "Neuroanatomía",
     "edition": "2ª Edición",
-    "file": "Bibliografias/NeuroanatomIa Funcional. Texto y Atlas. Afifi.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/NeuroanatomIa%20Funcional.%20Texto%20y%20Atlas.%20Afifi.pdf",
     "size": "29.4 MB",
     "description": "Correlación funcional y clínica del sistema nervioso central y periférico. Aborda cortes axiales y sagitales, resonancias magnéticas, vías sensitivo-motoras y diagnóstico topográfico.",
     "icon": "⚡",
@@ -429,7 +429,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Karl E. Misulis, Thomas C. Head (Ilustraciones: Frank H. Netter)",
     "category": "Neurología Clínica",
     "edition": "2ª Edición",
-    "file": "Bibliografias/Neurologia_Netter.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Neurologia_Netter.pdf",
     "size": "12.3 MB",
     "description": "Compendio clínico ilustrado de neurología aplicada. Diagnóstico rápido, exploración neurológica y manejo terapéutico de ictus, cefaleas, epilepsia, pares craneales y trastornos neuromusculares.",
     "icon": "🩺",
@@ -441,7 +441,7 @@ var BIBLIOGRAFIAS_DATA = [
     "author": "Osvaldo Fustinoni, J. C. Fustinoni",
     "category": "Semiología y Neurología",
     "edition": "14ª Edición",
-    "file": "Bibliografias/Fustinoni.pdf",
+    "file": "https://ugvwcdvwmxijzmkfjydb.supabase.co/storage/v1/object/public/morfo-files/Bibliografias/Fustinoni.pdf",
     "size": "55.3 MB",
     "description": "Obra cumbre de la exploración clínica y semiológica del sistema nervioso. Examen minucioso de pares craneales, motilidad, taxia, tono, sensibilidad, reflejos y síndromes neurológicos clásicos.",
     "icon": "🧠",

@@ -975,17 +975,19 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
 
     function getPdfUrl(weekNum, type, filename) {
+        let path = "";
         if (state.currentCourse === "morfo1") {
             const themeNum = weekNum <= 6 ? 1 : (weekNum <= 8 ? 2 : (weekNum === 9 ? 3 : 4));
-            return `Morfo 1/morfo/contenidos/tema${themeNum}/material/Semana ${weekNum}/${filename}`;
+            path = `Morfo 1/morfo/contenidos/tema${themeNum}/material/Semana ${weekNum}/${filename}`;
         } else if (state.currentCourse === "morfo2") {
             const themeNum = weekNum <= 2 ? 1 : 2;
             const semWord = weekNum <= 2 ? "semana" : "Semana";
-            return `Morfo 2/morfo2/contenidos/tema${themeNum}/material/${semWord} ${weekNum}/${filename}`;
+            path = `Morfo 2/morfo2/contenidos/tema${themeNum}/material/${semWord} ${weekNum}/${filename}`;
         } else {
             const themeNum = weekNum <= 7 ? 1 : (weekNum <= 9 ? 2 : 3);
-            return `Morfo 3/morfo3/contenidos/tema${themeNum}/material/semana${weekNum}/${filename}`;
+            path = `Morfo 3/morfo3/contenidos/tema${themeNum}/material/semana${weekNum}/${filename}`;
         }
+        return _res(path);
     }
 
     function renderWeekTabContent() {
@@ -2055,7 +2057,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                 const displayLabel = `Figura ${fig.label}`;
                 const card = document.createElement("div");
                 card.className = "atlas-card";
-                const imgSrc = fig.src.startsWith("Morfo 2/") ? fig.src : `Morfo 2/${fig.src}`;
+                const imgSrc = fig.src.startsWith("http") ? fig.src : (fig.src.startsWith("Morfo 2/") ? fig.src : `Morfo 2/${fig.src}`);
                 card.innerHTML = `
                     <div class="atlas-card-img-container" style="background: #111827; padding: 12px; display: flex; align-items: center; justify-content: center;">
                         <img class="atlas-card-img" src="${imgSrc}" alt="${displayLabel}" style="object-fit: contain; max-height: 200px;" loading="lazy">
@@ -2086,7 +2088,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                 const card = document.createElement("div");
                 card.className = "atlas-card";
                 card.style.cursor = "default";
-                const rawPptHref = ppt.file.startsWith("Morfo 2/") ? ppt.file : `Morfo 2/${ppt.file}`;
+                const rawPptHref = ppt.file.startsWith("http") ? ppt.file : (ppt.file.startsWith("Morfo 2/") ? ppt.file : `Morfo 2/${ppt.file}`);
                 const pptHref = _res(rawPptHref);
                 card.innerHTML = `
                     <div class="atlas-card-body" style="gap: 12px; padding: 28px;">

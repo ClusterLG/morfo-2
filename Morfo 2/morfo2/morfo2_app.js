@@ -437,10 +437,11 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
 
     function getPdfUrl(weekNum, type, filename) {
-        // Construct standard file paths relative to workspace root
+        // Construct standard file paths relative to workspace root and resolve via Supabase
         const tema = (weekNum <= 2) ? "tema1" : "tema2";
         const semWord = (weekNum <= 2) ? "semana" : "Semana";
-        return `morfo2/contenidos/${tema}/material/${semWord} ${weekNum}/${filename}`;
+        const path = `Morfo 2/morfo2/contenidos/${tema}/material/${semWord} ${weekNum}/${filename}`;
+        return _res(path);
     }
 
     function renderWeekTabContent() {
@@ -876,9 +877,9 @@ document.addEventListener("DOMContentLoaded", async function() {
                         <span>Abrir Video en Google Drive</span>
                     </a>` : ''}
                     ${currentAoObj.videoFile ? `
-                    <a href="${currentAoObj.videoFile}" download class="download-btn" id="downloadVideoBtn">
+                    <a href="${_res(currentAoObj.videoFile)}" download class="download-btn" id="downloadVideoBtn">
                         <svg viewBox="0 0 24 24"><path d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2v9.67z"/></svg>
-                        <span>Descargar Video Local</span>
+                        <span>Descargar Video</span>
                     </a>` : ''}
                 `;
 
