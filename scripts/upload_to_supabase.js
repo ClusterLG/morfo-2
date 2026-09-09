@@ -5,10 +5,39 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const SUPABASE_URL = "https://ugvwcdvwmxijzmkfjydb.supabase.co";
-// Clave Service Role administrativa para subida sin restricciones RLS
-const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVndndjZHZ3bXhpanpta2ZqeWRiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4ODY3ODEyNCwiZXhwIjoyMTA0MjU0MTI0fQ.B9_0QM8O02zK3cKnzXAh45AFUShB499nXJlK3ZkYMtA";
-const BUCKET_NAME = "morfo-files";
+// Cargar variables de .env si existe localmente
+function loadEnv() {
+    const envPath = path.join(__dirname, '..', '.env');
+    if (fs.existsSync(envPath)) {
+        const content = fs.readFileSync(envPath, 'utf-8');
+        content.split('\n').forEach(line => {
+            const trimmed = line.trim();
+            if (trimmed && !trimmed.startsWith('#')) {
+                const idx = trimmed.indexOf('=');
+                if (idx !== -1) {
+                    const key = trimmed.substring(0, idx).trim();
+                    const val = trimmed.substring(idx + 1).trim().replace(/^["']|["']$/g, '');
+                    if (!process.env[key]) {
+                        process.env[key] = val;
+                    }
+                }
+            }
+        });
+    }
+}
+loadEnv();
+
+const SUPABASE_URL = process.env.SUPABASE_URL || "https://ugvwcdvwmxijzmkfjydb.supabase.co";
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+if (!SUPABASE_KEY) {
+    console.error("\x1b[31m%s\x1b[0m", "ERROR: SUPABASE_SERVICE_ROLE_KEY no está configurada.");
+    console.error("Crea un archivo .env en la raíz del proyecto con la variable SUPABASE_SERVICE_ROLE_KEY=tu_clave");
+    console.error("O pásala como variable de entorno: SUPABASE_SERVICE_ROLE_KEY=... node scripts/upload_to_supabase.js");
+    process.exit(1);
+}
+
+const BUCKET_NAME = process.env.SUPABASE_BUCKET || "morfo-files";
 
 const BASE_ROOT = path.join(__dirname, "..");
 const TARGET_DIRS = [

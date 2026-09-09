@@ -26,3 +26,9 @@ dwt/
 *.zip
 *.rar
 
+# Variables de entorno y credenciales sensibles
+.env
+.env.local
+.env.*.local
+*.secret
+*.pem
